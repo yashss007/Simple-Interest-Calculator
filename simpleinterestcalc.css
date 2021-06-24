@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10%;
+}
+
+#form {
+    background-color: rgb(229, 245, 3);
+    border: 5px solid rgb(128, 77, 1);
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 5px 25px 25px 25px;
+    text-align: left;
+    width: 50%;
+}
+
+h1 {
+    color: navy;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    font-size: 15px;
+}
