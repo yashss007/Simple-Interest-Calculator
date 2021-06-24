@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Interest Calculator</title>
+    <link rel="stylesheet" href="simpleinterestcalc.css">
+    <script type="text/javascript" src="simpleinterestcalc.js"></script>
+</head>
+
+<body>
+    <form id="form" onsubmit="return computeInterest()">
+        <h1>Simple Interest Calculator</h1>
+
+        <!-- get principal amount -->
+        <label for="amount">Amount </label>
+        <input type="text" id="amount" name="amount">
+
+        <br><br>
+
+        <!-- get interest rate -->
+        <label for="interestRate">Interest Rate </label>
+        <input type="range" id="interestRateId" name="interestRate" min="0" max="7" value="3.5" oninput="interestRateOutId.value = interestRateId.value" step="0.5">
+        <output name="interestRateOut" id="interestRateOutId">3.5</output>
+
+        <br><br>
+
+        <!-- get time in years -->
+        <label for="numOfYears">No. of Years </label>
+        <select id="numOfYears" name="numOfYears">
+            <option type="1">1</option>
+            <option type="2">2</option>
+            <option type="3">3</option>
+            <option type="4">4</option>
+            <option type="5">5</option>
+            <option type="6">6</option>
+            <option type="7">7</option>
+            <option type="8">8</option>
+            <option type="9">9</option>
+            <option type="10">10</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Compute Interest">
+    </form>
+</body>
+
+</html>
