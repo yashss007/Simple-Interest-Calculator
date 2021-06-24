@@ -1,0 +1,1 @@
+This is a Simple Interest Calculator project implemented in HTML, CSS, and Javascript
